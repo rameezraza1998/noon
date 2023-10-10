@@ -10,7 +10,7 @@ font-weight: bold;
     height: 30px; /* Set the height as needed */
     cursor: pointer; /* Change cursor to a pointer to indicate it's clickable */
   }
-.nav-menubars ul li a:hover{
+.nav-bars ul li a:hover{
     color: rgb(131, 127, 127);
 } 
 
@@ -18,7 +18,9 @@ font-weight: bold;
     color: rgb(131, 127, 127);
     font-size: larger;
 } 
-
+.pointer{
+    cursor: pointer;
+}
 
 .icon{
     display: none;
@@ -37,6 +39,9 @@ padding-left: 2px;
 .bg-white{
     background-color: #fcfbf4;
 }
+.bg-silver{
+    background-color: #f7f7fa67;
+}
 .border-right{
     border: 1px solid #ddd6d6;
     border-bottom: none;
@@ -47,13 +52,15 @@ padding-left: 2px;
 
 .section1{
     flex: 100%;
-  
+   
+    
 } 
 
 .section1a{
+    
     flex: 100%;
     margin: 0% auto;
-  
+    
 } 
 .pic1{
     flex: 60%;
@@ -73,7 +80,7 @@ padding-left: 2px;
 
 }
 .border{
-border: 1px solid yellowgreen;
+border: 1px solid yellow;
 }
 
 .border-radius{
@@ -84,44 +91,56 @@ border-radius: 50%;
 width: 102.66px;
 height: 150.84px;
 }
+.w30{
+    width: 33%;
+}
+.re{
+    width: 190px;
+    height: 180px;
+}
+.rw{
+    width: 190px;
+    height: 140px;
+    border-radius: 20px;
+}
+.f{
+    height: 180px;
+}
+}
 
  /* responsive navbar */
 
  
 @media(max-width: 1350px){
-    .nav-menubars{
+    .nav-bars{
         display: none;
     }
-    .icon{
-        display: block;
-        margin-right: 4px;
-        
-    }
 }
+
 
 
 @media(max-width: 990px){
     .searchbar{
         display: none;
     }
-    .icon{
-        display: block;
-        margin-right: 4px;
-        
-    }
+   
 }
 
 
-@media(max-width: 1130px){
-    .slide{
-        display: none;
+@media (max-width: 700px) {
+    .reason {
+      flex-direction: column;
+      justify-content: center;
+
     }
-    .icon1{
-        display: block;
-       
-        
+    .sec1,.sec3, .sec2{
+        flex: none;
+        width: 100%;
     }
-}
+  }
+
+
+
 
 .border1{
 border: 1px solid black;
