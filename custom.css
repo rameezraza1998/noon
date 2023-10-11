@@ -126,6 +126,17 @@
     width: 189px;
     height: 299px;
 }
+.box1{
+    flex: 60%;
+}
+
+.box2{
+    flex: 20%;
+}
+
+.box3{
+    flex: 20%;
+}
 
 /* responsive navbar */
 
